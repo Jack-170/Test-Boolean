@@ -1,0 +1,51 @@
+body{
+   background-image:url(../materiale/background.jpg);
+   background-size: 100%;
+             }
+
+.Container{
+    width: 1000px;
+    margin:auto;
+    color: white;
+    background: white;
+    background-color: black;
+    opacity: 0.5;
+             }
+header{
+      text-align: center;
+      margin-top: 30px;
+              }
+ h1{
+    color: #00FF00;
+    font-size: 30px;
+          }
+  h2{
+      display: inline-block;
+          }
+ nav{
+    text-align: center;
+    background-color: #00DD00;
+    padding: 10px;
+          }
+
+ #carica1{
+   background-color: orange ;
+   height: 20px;
+   margin-right: 700px;
+   border-radius: 5px;
+          }
+ #carica2{
+   height: 20px;
+   border-radius: 5px;
+  background-color: #00CC00;
+  margin-right: 500px;
+          }
+#carica3{
+  height: 20px;
+  border-radius: 5px;
+  background-color:#CC0000;
+  margin-right: 850px;
+          }
+ h2::before{
+   content:"\21a6"
+          }
